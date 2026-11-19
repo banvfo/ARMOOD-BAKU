@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ARMOOD BAKU — Restoran Bakıxanovda</title>
+<meta name="description" content="ARMOOD BAKU: Azərbaycan və Avropa mətbəxi, səhər yeməyi, canlı musiqi, banketlər. Bakıxanov, Səməd bəy Mehmandarov 17. Hər gün 09:00–23:30.">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="ARMOOD BAKU">
+<meta property="og:description" content="Azərbaycan və Avropa mətbəxi, canlı musiqi, banketlər.">
+<meta property="og:image" content="assets/photos/hero.jpg">
+<meta name="theme-color" content="#0b0805">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"ARMOOD BAKU","servesCuisine":["Azerbaijani","European"],
+"address":{"@type":"PostalAddress","streetAddress":"Səməd bəy Mehmandarov 17","addressLocality":"Bakıxanov, Bakı","addressCountry":"AZ"},
+"telephone":["+994503137999","+994553137999"],"email":"budaggroup4@gmail.com","url":"https://budaggroup.az/","sameAs":["https://www.instagram.com/armoodbaku.az/"],
+"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"09:00","closes":"23:30"}}
+</script>
+</head>
+<body>
+<i id="bar"></i>
+<div id="loader" aria-hidden="true"><div class="logo">ARMOOD</div><i></i></div>
+<header id="top">
+  <a href="#home" class="logo" aria-label="ARMOOD BAKU">ARMOOD<small>BAKU</small></a>
+  <nav id="nav" aria-label="Main">
+    <a href="#about" data-i18n="n_about"></a><a href="#menu" data-i18n="n_menu"></a>
+    <a href="#events" data-i18n="n_events"></a><a href="#ratings" data-i18n="n_ratings"></a><a href="#contact" data-i18n="n_contact"></a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language"><button data-l="az">AZ</button><button data-l="ru">RU</button><button data-l="en">EN</button></div>
+  <button id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="ph bg" data-img="hero"></div><div class="shade"></div><div class="glow"></div><canvas id="dust" aria-hidden="true"></canvas>
+  <div class="hero-in">
+    <p class="eyebrow rv" data-i18n="h_eyebrow"></p>
+    <h1 class="rv"><span class="logo big">ARMOOD</span><span data-i18n="h_title"></span></h1>
+    <p class="lead rv" data-i18n="h_text"></p>
+    <div class="btns rv"><a class="btn gold" href="#reserve" data-i18n="b_reserve"></a><a class="btn ghost" href="#menu" data-i18n="b_menu"></a></div>
+  </div>
+</section>
+
+<div class="mq" aria-hidden="true"><div id="mqt"></div></div>
+
+<section id="about" class="sec">
+  <div class="wrap two">
+    <div class="rv"><p class="eyebrow" data-i18n="n_about"></p><h2 data-i18n="a_title"></h2><p data-i18n="a_p1"></p><p data-i18n="a_p2"></p>
+      <ul class="chips"><li data-i18n="c1"></li><li data-i18n="c2"></li><li data-i18n="c3"></li><li data-i18n="c4"></li><li data-i18n="c5"></li></ul>
+      <a class="link" href="https://budaggroup.az/" target="_blank" rel="noopener">budaggroup.az →</a></div>
+    <div class="frame rv"><div class="ph par" data-img="about"></div></div>
+  </div>
+</section>
+
+<section id="menu" class="sec dark">
+  <div class="wrap"><p class="eyebrow rv" data-i18n="n_menu"></p><h2 class="rv" data-i18n="m_title"></h2>
+    <div class="pics"><figure class="rv"><div class="ph" data-photo="g1"></div><figcaption data-i18n="c1"></figcaption></figure><figure class="rv"><div class="ph" data-photo="g5"></div><figcaption data-i18n="c3"></figcaption></figure><figure class="rv"><div class="ph" data-photo="g6"></div><figcaption data-i18n="c_des"></figcaption></figure></div>
+    <div id="tabs" class="tabs" role="tablist"></div>
+    <div id="cards" class="cards" role="tabpanel"></div>
+    <p class="note" data-i18n="m_note"></p>
+    <a class="btn gold" href="https://armood.clopos.menu/en/1/products" target="_blank" rel="noopener" data-i18n="m_live"></a></div>
+</section>
+
+<section id="events" class="sec dark">
+  <div class="wrap"><p class="eyebrow rv" data-i18n="n_events"></p><h2 class="rv" data-i18n="e_title"></h2>
+    <div class="ev">
+      <article class="glass rv"><b>01</b><h3 data-i18n="e1"></h3></article><article class="glass rv"><b>02</b><h3 data-i18n="e2"></h3></article>
+      <article class="glass rv"><b>03</b><h3 data-i18n="e3"></h3></article><article class="glass rv"><b>04</b><h3 data-i18n="e4"></h3></article>
+      <article class="glass rv"><b>05</b><h3 data-i18n="e5"></h3></article><article class="glass rv"><b>06</b><h3 data-i18n="e6"></h3></article>
+    </div>
+    <div class="pics"><figure class="rv"><div class="ph" data-photo="g4"></div><figcaption data-i18n="c4"></figcaption></figure><figure class="rv"><div class="ph" data-photo="g3"></div></figure><figure class="rv"><div class="ph" data-photo="g2"></div></figure></div>
+    <a class="btn gold" href="tel:+994503137999" data-i18n="e_call"></a></div>
+</section>
+
+<section id="ratings" class="sec">
+  <div class="wrap"><p class="eyebrow rv" data-i18n="n_ratings"></p><h2 class="rv" data-i18n="r_title"></h2>
+    <div class="rat">
+      <article class="glass rv"><h3>Tripadvisor</h3><div class="score">4,3<small>/5</small></div><div class="stars" style="--p:86%"></div><p data-i18n="r_t"></p>
+        <a class="btn ghost" target="_blank" rel="noopener" href="https://www.tripadvisor.com/Restaurant_Review-g293934-d23789665-Reviews-Armood_Baku-Baku_Absheron_Region.html" data-i18n="r_go"></a></article>
+      <article class="glass rv"><h3>Wanderlog</h3><div class="score">4,4<small>/5</small></div><div class="stars" style="--p:88%"></div><p data-i18n="r_w"></p>
+        <a class="btn ghost" target="_blank" rel="noopener" href="https://wanderlog.com/place/details/3685294" data-i18n="r_go"></a></article>
+    </div><p class="note" data-i18n="r_note"></p></div>
+</section>
+
+<section id="reserve" class="sec dark">
+  <div class="wrap narrow"><p class="eyebrow rv" data-i18n="b_reserve"></p><h2 class="rv" data-i18n="f_title"></h2>
+    <form id="form" class="glass rv" novalidate>
+      <label><span data-i18n="f_name"></span><input name="name" required autocomplete="name"></label>
+      <label><span data-i18n="f_phone"></span><input name="phone" type="tel" required autocomplete="tel"></label>
+      <label><span data-i18n="f_date"></span><input name="date" type="date" required></label>
+      <label><span data-i18n="f_time"></span><input name="time" type="time" min="09:00" max="23:30" required></label>
+      <label><span data-i18n="f_guests"></span><input name="guests" type="number" min="1" max="200" value="2" required></label>
+      <label class="full"><span data-i18n="f_wish"></span><textarea name="wish" rows="3"></textarea></label>
+      <p id="err" class="err" role="alert"></p>
+      <button class="btn gold full" type="submit" data-i18n="f_send"></button>
+      <p class="note full" data-i18n="f_note"></p>
+    </form></div>
+</section>
+
+<section id="contact" class="sec">
+  <div class="wrap two">
+    <div class="rv"><p class="eyebrow" data-i18n="n_contact"></p><h2 data-i18n="k_title"></h2>
+      <p><b data-i18n="k_addr"></b><br>Bakıxanov, Səməd bəy Mehmandarov 17, Bakı, Azərbaycan</p>
+      <p><b data-i18n="k_tel"></b><br><a href="tel:+994503137999">+994 50 313 79 99</a><br><a href="tel:+994553137999">+994 55 313 79 99</a></p>
+      <p><b>E-mail</b><br><a href="mailto:budaggroup4@gmail.com">budaggroup4@gmail.com</a></p>
+      <p><b data-i18n="k_hours"></b><br><span data-i18n="k_hrs"></span></p>
+      <div class="btns"><a class="btn gold" href="tel:+994503137999" data-i18n="k_call"></a><a class="btn ghost" target="_blank" rel="noopener" href="https://wa.me/994503137999">WhatsApp</a></div>
+      <p id="social" class="note"></p></div>
+    <iframe class="map rv" title="ARMOOD BAKU map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Səməd+bəy+Mehmandarov+17,+Bakıxanov,+Baku&output=embed"></iframe>
+  </div>
+</section>
+</main>
+<footer><div class="logo">ARMOOD<small>BAKU</small></div><p><a href="https://www.instagram.com/armoodbaku.az/" target="_blank" rel="noopener">Instagram</a> · © 2026 ARMOOD BAKU · <a href="https://budaggroup.az/" target="_blank" rel="noopener">BUDAG Group</a></p></footer>
+<script src="script.js"></script>
+</body>
+</html>
